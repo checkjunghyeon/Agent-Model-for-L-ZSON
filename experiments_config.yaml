@@ -1,0 +1,9 @@
+context_map: #for Experiments (3)
+    configure: object #grid, object, relation
+
+#for Experiments (4)
+exploration: psl_frontier #move_to_room, move_to_object, base_frontier, psl_frontier
+
+prompting: #for Experiments (5)
+    type: chain #single, chain
+    context: label #label, spatial_relation
